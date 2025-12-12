@@ -1,5 +1,5 @@
 export async function submitLabel(formData) {
-  const response = await fetch("http://localhost:8000/verify", {
+  const response = await fetch("https://alc-label-verifier.onrender.com", {
     method: "POST",
     body: formData
   });
