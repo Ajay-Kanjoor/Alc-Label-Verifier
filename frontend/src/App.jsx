@@ -54,6 +54,7 @@ function App() {
           <pre>{JSON.stringify(result.details, null, 2)}</pre>
         </div>
       )}
+      
     </div>
   );
 }
